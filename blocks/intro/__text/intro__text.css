@@ -1,4 +1,5 @@
 .intro__text{
+    max-width: 690px;
     margin: 0;
 
     font-family: Inter;
@@ -9,5 +10,5 @@
     /* or 26px */
 
 
-    color: #FFFFFF;
+    color: #FFFFFF; 
 }
