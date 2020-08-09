@@ -1,0 +1,20 @@
+.cover__subtitle{
+    position: absolute;
+    top: 57.97%;
+    left: 34.79%;
+
+    max-width: 360px;
+    /*margin: 0 auto 245px auto; */
+    align-self: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
