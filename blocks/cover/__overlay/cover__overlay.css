@@ -1,8 +1,16 @@
 .cover__overlay{
     width: 100%;
-    min-height: 200px;
+    height: 100%;
     background-color: rgb(0, 0, 0, .3);
-    transition: background-color .8s linear;
+    transition: background-color .8s linear; 
+}
+
+.cover__overlay:before{
+    content: '';
+    display: block;
+    background-image: url('../../images/__background.png');
+    background-size: contain;
+    padding-bottom: 65%;
 }
 
 .cover__overlay:hover{

@@ -1,3 +1,4 @@
+  
 .intro{
     min-height: 446px;
     margin: auto;
@@ -21,8 +22,12 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px){
+@media screen and (min-width: 425px) and (max-width: 767px){
     .intro{
-        max-width: 288px;
+        max-width: 767px;
+        min-width: 425px;
+        margin-right: 16px;
+        margin-left: 16px;
     }
 }
+
