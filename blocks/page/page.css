@@ -1,9 +1,4 @@
 .page{
-    min-width: 1280px;
-    padding: 0;
-    background-color: #2A2C2F;
-    margin: 0 auto;
-
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
@@ -11,3 +6,22 @@
     -moz-text-size-adjust: 100%;
 }
 
+@media screen and (min-width: 1280px){
+    .page{
+        min-width: 1280px;
+        padding: 0;
+        background-color: #2A2C2F;
+        margin: 0 auto;
+    
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .page{
+        min-width: 1024px;
+        padding: 0;
+        background-color: #2A2C2F;
+        margin: 0 auto;
+    
+    }
+}
