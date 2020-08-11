@@ -12,5 +12,12 @@
     text-align: right;
 
     color: #FFFFFF;
-
 }
+
+@media screen and (max-width: 768px){
+    .footer__copyright{
+        padding-bottom: 24px;
+        line-height: 14px;
+    }
+}
+

@@ -20,3 +20,9 @@
         line-height: 44px;
     }
 }
+
+@media screen and (max-width: 425){
+    .lead__title{
+        margin-bottom: 16px;
+    }
+}
