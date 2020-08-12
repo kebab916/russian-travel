@@ -1,3 +1,9 @@
 .lead__image{
    width: 100%;
 }
+
+.lead__image::before{
+   content: '';
+   display: block;
+   padding-bottom: 62.80%;
+}
