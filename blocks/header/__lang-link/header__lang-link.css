@@ -9,7 +9,6 @@
 /* identical to box height, or 117% */
 
     text-align: right;
-    text-decoration-line: underline;
 
     color: #FFFFFF;
 
@@ -17,7 +16,6 @@
 
 .header__lang-link:last-child{
     margin: 0;
-    text-decoration: none;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px){
